@@ -1,5 +1,5 @@
 {*
-* 2007-2019 PrestaShop
+* 2007-2021 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,18 +18,16 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author    PrestaShop SA <contact@prestashop.com>
-*  @copyright 2007-2019 PrestaShop SA
+*  @copyright 2007-2021 PrestaShop SA
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 /* customizable snowflake styling */
 .snowflake {
-  color: #fff;
-  font-size: 1em;
-  font-family: Arial, sans-serif;
-  text-shadow: 0 0 5px #000;
+  font-size: {$sizesnowflakes}em;
 }
 
 @-webkit-keyframes snowflakes-fall {
@@ -89,6 +87,19 @@
     animation-timing-function: linear, ease-in-out;
     animation-iteration-count: infinite, infinite;
     animation-play-state: running, running
+}
+
+.fa-bell-o {
+  color: #ed9b40 !important;
+}
+
+.fa-music {
+  color: #cc2037 !important;
+}
+
+.fa-snowflake-o {
+  color: #fff;
+  text-shadow: 0 0 5px #000;
 }
 
 .snowflake:nth-of-type(0) {
@@ -165,39 +176,39 @@
 </style>
 <div class="snowflakes" aria-hidden="true">
   <div class="snowflake">
-  ❅
+    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-  ❆
+    <i class="fa fa-bell-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-  ❅
+    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-  ❆
+    <i class="fa fa-music" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-  ❅
+    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-  ❆
+  <i class="fa fa-snowflake-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-    ❅
+    <i class="fa fa-bell-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-    ❆
+    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-    ❅
+    <i class="fa fa-music" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-    ❆
+    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-    ❅
+    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
   </div>
   <div class="snowflake">
-    ❆
+    <i class="fa fa-bell-o" aria-hidden="true"></i>
   </div>
 </div>

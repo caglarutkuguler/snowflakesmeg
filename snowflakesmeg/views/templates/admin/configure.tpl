@@ -1,5 +1,5 @@
 {*
-* 2007-2019 PrestaShop
+* 2007-2021 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,21 +18,24 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author    PrestaShop SA <contact@prestashop.com>
-*  @copyright 2007-2019 PrestaShop SA
+*  @copyright 2007-2021 PrestaShop SA
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="panel">
 	<h3>{l s='Snowflakes' mod='snowflakesmeg'}</h3>
 	<p>
 		<strong>{l s='Winter is coming!' mod='snowflakesmeg'}</strong><br />
 		{l s='Add snowflakes effect to your website front office' mod='snowflakesmeg'}<br />
+		{l s='Two different types of snowflakes effect are available.' mod='snowflakesmeg'}<br />
 		{l s='No javascript code is needed. Only CSS!' mod='snowflakesmeg'}<br />
 		{l s='Therefore, it will not have any performance effect on your website.' mod='snowflakesmeg'}
 	</p>
 	<br />
 	<p>
-		{l s='Please enable the check box below to let it snow!' mod='snowflakesmeg'}
+		{l s='Please check the snow type below to let it snow!' mod='snowflakesmeg'}
 	</p>
 </div>

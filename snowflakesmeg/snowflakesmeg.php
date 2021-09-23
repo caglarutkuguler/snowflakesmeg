@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop
+ * 2007-2021 PrestaShop
  *
  * NOTICE OF LICENSE
  *
@@ -19,7 +19,7 @@
  * needs please refer to http://www.prestashop.com for more information.
  *
  *  @author    PrestaShop SA <contact@prestashop.com>
- *  @copyright 2007-2019 PrestaShop SA
+ *  @copyright 2007-2021 PrestaShop SA
  *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  *  International Registered Trademark & Property of PrestaShop SA
  */
@@ -32,19 +32,18 @@ class Snowflakesmeg extends Module
 {
     protected $config_form = false;
     private $confirmation;
+    private $_html = '';
+    private $post_errors = array();
 
     public function __construct()
     {
         $this->name = 'snowflakesmeg';
         $this->tab = 'front_office_features';
-        $this->version = '1.0.0';
+        $this->version = '1.1.0';
         $this->author = 'MEG Venture';
         $this->need_instance = 0;
         $this->module_key = 'a67eacc637922bc344faab514f05f59a';
 
-        /**
-         * Set $this->bootstrap to true if your module is compliant with bootstrap (PrestaShop 1.6)
-         */
         $this->bootstrap = true;
 
         parent::__construct();
@@ -53,13 +52,10 @@ class Snowflakesmeg extends Module
         $this->description = $this->l('Create snowflakes effect on your front office.');
     }
 
-    /**
-     * Don't forget to create update methods if needed:
-     * http://doc.prestashop.com/display/PS16/Enabling+the+Auto-Update
-     */
     public function install()
     {
         Configuration::updateValue('SNOWFLAKES', 1);
+        Configuration::updateValue('sizesnowflakes', 1.5);
 
         return parent::install() &&
         $this->registerHook('header') &&
@@ -69,33 +65,46 @@ class Snowflakesmeg extends Module
     public function uninstall()
     {
         Configuration::deleteByName('SNOWFLAKES');
+        Configuration::deleteByName('sizesnowflakes');
 
         return parent::uninstall();
     }
 
-    /**
-     * Load the configuration form
-     */
+    private function _postValidation()
+    {
+        if (Tools::isSubmit('submitSnowflakesModule') == true) {
+            if (!Tools::getValue('sizesnowflakes')) {
+                $this->post_errors[] = $this->l('Changes are not saved. Snowflake size is required.');
+            }
+
+            if (!Validate::isFloat(Tools::getValue('sizesnowflakes'))) {
+                $this->post_errors[] = $this->l('Changes are not saved. Snowflake size is should be a floating value.');
+            }
+        }
+    }
+
     public function getContent()
     {
-        /**
-         * If values have been submitted in the form, process.
-         */
-        if ((Tools::isSubmit('submitSnowflakesModule')) == true) {
-            $this->postProcess();
-            $this->confirmation = $this->displayConfirmation($this->l('Settings updated successfully.'));
+        $this->_html = null;
+        if (Tools::isSubmit('submitSnowflakesModule') == true) {
+            $this->_postValidation();
+            if (!count($this->post_errors)) {
+                $this->postProcess();
+                $this->confirmation = $this->displayConfirmation($this->l('Settings updated successfully.'));
+            } else {
+                foreach ($this->post_errors as $err) {
+                    $this->_html .= $this->displayError($err);
+                }
+            }
         }
 
         $this->context->smarty->assign('module_dir', $this->_path);
 
         $output = $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
 
-        return $this->confirmation . $output . $this->renderForm();
+        return $this->_html . $this->confirmation . $output . $this->renderForm();
     }
 
-    /**
-     * Create the form that will be displayed in the configuration of your module.
-     */
     protected function renderForm()
     {
         $helper = new HelperForm();
@@ -121,9 +130,6 @@ class Snowflakesmeg extends Module
         return $helper->generateForm(array($this->getConfigForm()));
     }
 
-    /**
-     * Create the structure of your form.
-     */
     protected function getConfigForm()
     {
         return array(
@@ -134,23 +140,37 @@ class Snowflakesmeg extends Module
                 ),
                 'input' => array(
                     array(
-                        'type' => 'switch',
-                        'label' => $this->l('Enable'),
+                        'type' => 'radio',
+                        'label' => $this->l('Type of Snowflakes'),
                         'name' => 'SNOWFLAKES',
+                        'class' => 't',
+                        'required' => true,
                         'is_bool' => true,
-                        'desc' => $this->l('Enable snowflakes on the front office'),
                         'values' => array(
                             array(
-                                'id' => 'active_on',
-                                'value' => true,
-                                'label' => $this->l('Enabled'),
-                            ),
-                            array(
-                                'id' => 'active_off',
-                                'value' => false,
+                                'id' => 'disabled_snowflakes',
+                                'value' => 0,
                                 'label' => $this->l('Disabled'),
                             ),
+                            array(
+                                'id' => 'normal_snowflakes',
+                                'value' => 1,
+                                'label' => $this->l('Normal Snowflakes') . '&nbsp;<i class="fa fa-snowflake-o" aria-hidden="true"></i>',
+                            ),
+                            array(
+                                'id' => 'christmas_snowflakes',
+                                'value' => 2,
+                                'label' => $this->l('Christmas Theme Snowflakes') . '&nbsp;<i class="fa fa-snowflake-o" aria-hidden="true"></i>&nbsp;<i style="color: #cc2037;" class="fa fa-music" aria-hidden="true"></i>&nbsp;<i style="color: #ed9b40;" class="fa fa-bell-o" aria-hidden="true"></i>',
+                            ),
                         ),
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Size of the Snowflakes'),
+                        'name' => 'sizesnowflakes',
+                        'size' => 20,
+                        'required' => true,
+                        'hint' => $this->l('Default: 1.5, values between 0.5 and 3 are recommended'),
                     ),
                 ),
                 'submit' => array(
@@ -160,19 +180,14 @@ class Snowflakesmeg extends Module
         );
     }
 
-    /**
-     * Set values for the inputs.
-     */
     protected function getConfigFormValues()
     {
         return array(
             'SNOWFLAKES' => Configuration::get('SNOWFLAKES'),
+            'sizesnowflakes' => Configuration::get('sizesnowflakes'),
         );
     }
 
-    /**
-     * Save form data.
-     */
     protected function postProcess()
     {
         $form_values = $this->getConfigFormValues();
@@ -182,20 +197,21 @@ class Snowflakesmeg extends Module
         }
     }
 
-    /**
-     * Add the CSS & JavaScript files you want to be added on the FO.
-     */
     public function hookHeader()
     {
+        $this->smarty->assign(array(
+            'sizesnowflakes' => Configuration::get('sizesnowflakes'),
+        ));
+
         if (Configuration::get('SNOWFLAKES') == 1) {
-            return $this->display(__FILE__, 'views/templates/front/snowflakes.tpl');
+            return $this->display(__FILE__, 'views/templates/front/normal_snowflakes.tpl');
+        } elseif (Configuration::get('SNOWFLAKES') == 2) {
+            return $this->display(__FILE__, 'views/templates/front/christmas_snowflakes.tpl');
         }
     }
 
     public function hookDisplayHeader()
     {
-        if (Configuration::get('SNOWFLAKES') == 1) {
-            return $this->display(__FILE__, 'views/templates/front/snowflakes.tpl');
-        }
+        return $this->hookHeader();
     }
 }
