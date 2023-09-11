@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2021 PrestaShop
+ * 2007-2023 PrestaShop
  *
  * NOTICE OF LICENSE
  *
@@ -19,70 +19,57 @@
  * needs please refer to http://www.prestashop.com for more information.
  *
  *  @author    PrestaShop SA <contact@prestashop.com>
- *  @copyright 2007-2021 PrestaShop SA
+ *  @copyright 2007-2023 PrestaShop SA
  *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  *  International Registered Trademark & Property of PrestaShop SA
  */
-
 if (!defined('_PS_VERSION_')) {
     exit;
 }
-
 class Snowflakesmeg extends Module
 {
     protected $config_form = false;
     private $confirmation;
     private $_html = '';
     private $post_errors = array();
-
     public function __construct()
     {
         $this->name = 'snowflakesmeg';
         $this->tab = 'front_office_features';
-        $this->version = '1.1.0';
+        $this->version = '1.1.1';
         $this->author = 'MEG Venture';
         $this->need_instance = 0;
         $this->module_key = 'a67eacc637922bc344faab514f05f59a';
-
         $this->bootstrap = true;
-
         parent::__construct();
-
         $this->displayName = $this->l('Snowflakes');
         $this->description = $this->l('Create snowflakes effect on your front office.');
     }
-
     public function install()
     {
         Configuration::updateValue('SNOWFLAKES', 1);
         Configuration::updateValue('sizesnowflakes', 1.5);
-
         return parent::install() &&
         $this->registerHook('header') &&
         $this->registerHook('displayHeader');
     }
-
     public function uninstall()
     {
         Configuration::deleteByName('SNOWFLAKES');
         Configuration::deleteByName('sizesnowflakes');
-
         return parent::uninstall();
     }
-
     private function _postValidation()
     {
         if (Tools::isSubmit('submitSnowflakesModule') == true) {
             if (!Tools::getValue('sizesnowflakes')) {
                 $this->post_errors[] = $this->l('Changes are not saved. Snowflake size is required.');
             }
-
             if (!Validate::isFloat(Tools::getValue('sizesnowflakes'))) {
                 $this->post_errors[] = $this->l('Changes are not saved. Snowflake size is should be a floating value.');
             }
         }
     }
-
     public function getContent()
     {
         $this->_html = null;
@@ -97,39 +84,30 @@ class Snowflakesmeg extends Module
                 }
             }
         }
-
         $this->context->smarty->assign('module_dir', $this->_path);
-
         $output = $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
-
         return $this->_html . $this->confirmation . $output . $this->renderForm();
     }
-
     protected function renderForm()
     {
         $helper = new HelperForm();
-
         $helper->show_toolbar = false;
         $helper->table = $this->table;
         $helper->module = $this;
         $helper->default_form_language = $this->context->language->id;
         $helper->allow_employee_form_lang = Configuration::get('PS_BO_ALLOW_EMPLOYEE_FORM_LANG', 0);
-
         $helper->identifier = $this->identifier;
         $helper->submit_action = 'submitSnowflakesModule';
         $helper->currentIndex = $this->context->link->getAdminLink('AdminModules', false)
         . '&configure=' . $this->name . '&tab_module=' . $this->tab . '&module_name=' . $this->name;
         $helper->token = Tools::getAdminTokenLite('AdminModules');
-
         $helper->tpl_vars = array(
             'fields_value' => $this->getConfigFormValues(), /* Add values for your inputs */
             'languages' => $this->context->controller->getLanguages(),
             'id_language' => $this->context->language->id,
         );
-
         return $helper->generateForm(array($this->getConfigForm()));
     }
-
     protected function getConfigForm()
     {
         return array(
@@ -179,7 +157,6 @@ class Snowflakesmeg extends Module
             ),
         );
     }
-
     protected function getConfigFormValues()
     {
         return array(
@@ -187,29 +164,24 @@ class Snowflakesmeg extends Module
             'sizesnowflakes' => Configuration::get('sizesnowflakes'),
         );
     }
-
     protected function postProcess()
     {
         $form_values = $this->getConfigFormValues();
-
         foreach (array_keys($form_values) as $key) {
             Configuration::updateValue($key, Tools::getValue($key));
         }
     }
-
     public function hookHeader()
     {
         $this->smarty->assign(array(
             'sizesnowflakes' => Configuration::get('sizesnowflakes'),
         ));
-
         if (Configuration::get('SNOWFLAKES') == 1) {
             return $this->display(__FILE__, 'views/templates/front/normal_snowflakes.tpl');
         } elseif (Configuration::get('SNOWFLAKES') == 2) {
             return $this->display(__FILE__, 'views/templates/front/christmas_snowflakes.tpl');
         }
     }
-
     public function hookDisplayHeader()
     {
         return $this->hookHeader();
