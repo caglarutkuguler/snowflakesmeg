@@ -1,0 +1,72 @@
+/**
+ * 2019-2026 MEG Venture
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ *
+ *  @author    MEG Venture
+ *  @copyright 2019-2026 MEG Venture
+ *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+.snowflakesmeg {
+    pointer-events: none;
+}
+
+.snowflakesmeg__flake {
+    position: fixed;
+    top: -10vh;
+    z-index: 9999;
+    line-height: 1;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: var(--sfm-color, #fff);
+    will-change: transform;
+    animation: snowflakesmeg-fall 10s linear infinite;
+}
+
+.snowflakesmeg__flake--snow {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.snowflakesmeg__sway {
+    display: inline-block;
+    animation: snowflakesmeg-sway 3s ease-in-out infinite;
+}
+
+@keyframes snowflakesmeg-fall {
+    to {
+        transform: translateY(120vh);
+    }
+}
+
+@keyframes snowflakesmeg-sway {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(60px);
+    }
+}
+
+/* Respect visitors who asked their device to reduce animations. */
+@media (prefers-reduced-motion: reduce) {
+    .snowflakesmeg {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .snowflakesmeg--desktop-only {
+        display: none;
+    }
+}
