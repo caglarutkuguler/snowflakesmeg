@@ -50,7 +50,7 @@ class Snowflakesmeg extends Module implements WidgetInterface
 
         parent::__construct();
 
-        $this->displayName = $this->l('Snow Effects - Christmas & Winter Atmosphere');
+        $this->displayName = $this->l('Snow Effects - Christmas and Winter Atmosphere');
         $this->description = $this->l('Delight your visitors with a gentle snowfall or a festive Christmas mix, in pure CSS: no JavaScript, no external files, no impact on page speed. Set the season dates once and the snow starts and stops by itself.');
         $this->confirmUninstall = $this->l('The snow effect and its settings will be removed from your shop. Do you want to continue?');
     }
