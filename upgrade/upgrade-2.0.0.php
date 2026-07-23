@@ -74,6 +74,14 @@ function upgrade_module_2_0_0($module)
         }
     }
 
-    return $module->registerHook('displayBeforeBodyClosingTag')
-        && $module->registerHook('actionFrontControllerSetMedia');
+    // Never let a live registerHook() call decide whether this upgrade step
+    // - and therefore the whole module - succeeds or gets disabled: check
+    // idempotently, attempt it, and always report success either way.
+    foreach (array('displayBeforeBodyClosingTag', 'actionFrontControllerSetMedia') as $hook) {
+        if (!$module->isRegisteredInHook($hook)) {
+            $module->registerHook($hook);
+        }
+    }
+
+    return true;
 }

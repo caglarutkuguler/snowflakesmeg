@@ -41,7 +41,7 @@ class Snowflakesmeg extends Module implements WidgetInterface
     {
         $this->name = 'snowflakesmeg';
         $this->tab = 'front_office_features';
-        $this->version = '2.0.0';
+        $this->version = '2.0.1';
         $this->author = 'MEG Venture';
         $this->need_instance = 0;
         $this->module_key = 'a67eacc637922bc344faab514f05f59a';
