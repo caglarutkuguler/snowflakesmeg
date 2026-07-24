@@ -51,3 +51,57 @@ $_MODULE['<{snowflakesmeg}prestashop>3686ab55015eada182cedb47de73c9eb'] = 'Mevcu
 $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'Mağazanızda şu anda kar yağıyor.';
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Kar şu anda kapalı. Kar yağması için aşağıdan etkinleştirin.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'Önizleme kaydedilmiş ayarlarınızı kullanır. Yenilemek için aşağıdaki formu kaydedin.';
+
+// --- Auto-regenerated below: keys include the template-basename source segment
+//     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
+//     The entries above this line use the old (pre-1.7, basename-less) key format
+//     that PrestaShop 1.7+ never matches - kept for reference/rollback, not read.
+$_MODULE['<{snowflakesmeg}prestashop>configure_0016d01755f47bd5ce846a130c7ab6e4'] = 'Önizleme kaydedilmiş ayarlarınızı kullanır. Yenilemek için aşağıdaki formu kaydedin.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3686ab55015eada182cedb47de73c9eb'] = 'Mevcut durum ve önizleme';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3fcc9d3ed86f4eebaf2aebf64d6ab1f9'] = 'Bir tema seçin: klasik beyaz kar yağışı veya çanlar, ağaçlar, kardan adamlar ve hediyelerle Noel karışımı.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_55f83ec83da920ba59ad2acfd75510cf'] = 'Mağazanızda şu anda kar yağıyor.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_58d1f4d2c2d4f66e638568476596b8cc'] = 'Kar asla tıklamaları veya kaydırmayı engellemez ve azaltılmış hareket isteyen cihazlarda kendini gizler.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_78ecd6478105c0bc7292fd29a4ca45e2'] = 'Tanelerin boyutunu, miktarını, hızını ve rengini tasarımınıza uyacak şekilde ayarlayın.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_87d571f1e681acdb9a3c4b0f2ea284d3'] = 'İsteğe bağlı: karın ilk ve son gününü ayarlayın, efekt kendiliğinden başlasın ve dursun - tatil sezonu için mükemmel.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8db079a507719752153ba2af64544de5'] = 'Bu modül, mağazanızın her sayfasına saf CSS ile bir kar yağışı efekti ekler: JavaScript yok, harici dosya yok, sayfa hızına ölçülebilir bir etkisi yok.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_9ffdb95250e26c7a6b468126ac7c75b0'] = 'Nasıl çalışır';
+$_MODULE['<{snowflakesmeg}prestashop>configure_b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Kar şu anda kapalı. Kar yağması için aşağıdan etkinleştirin.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Etkin';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_20cef181c5399732f461504716046d69'] = 'Ziyaretçilerinizi hafif bir kar yağışı veya şenlikli bir Noel karışımıyla mutlu edin, saf CSS ile: JavaScript yok, harici dosya yok, sayfa hızına etkisi yok. Sezon tarihlerini bir kez ayarlayın, kar kendiliğinden başlasın ve dursun.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_23de9aad11d0b1a45b429fd44a4ecea4'] = 'Noel karışımı, kar taneleri arasına çanlar, notalar, ağaçlar, kardan adamlar ve hediyeler serpiştirir.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_353eaf851431a0f83ed93757f5233feb'] = 'Ana anahtar. Etkinleştirildiğinde, aşağıda belirlediyseniz sezon tarihleri içinde mağazanızın her sayfasında kar yağar.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_3d3348d8ecebd751b4f4e8ffee8fd8a7'] = 'Kar efekti ve ayarları mağazanızdan kaldırılacak. Devam etmek istiyor musunuz?';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_46faa34adef8569edeb751438264d07f'] = 'Karın ilk günü, son günden önce olmalıdır.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_4c6484bee0edd2ebb989db9b70615d1d'] = 'Kar yağsın';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_62456a3f963b5f4d8c97a056b37951eb'] = 'Kar tanelerinin düşme hızı.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6479662c2e194558b07f79e3df1633af'] = 'Sakin - yavaş, rüya gibi taneler';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_672d13bd298ac7ea905974a3347862ed'] = 'Kar tanesi rengi';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6b98c69a5dd5046aa413b775a031c726'] = 'Kar ayarları';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6e085f02f53ea9c3027b526c0d43694d'] = '%d ile %d arasında. 12 iyi bir denge; daha yüksek değerler yoğun kar yağışı hissi verir.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_771b82ef06c95593f72c05be9665290d'] = '768 pikselden geniş ekranlarda kar göstermek için kapatın.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7ad857b89382b7157b8ca4755425c8c7'] = 'Telefonlarda göster';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7c8ef519c49f1ff0b88278b798632b05'] = 'Kar tanesi boyutu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_84d2a0fe6dee73eb2f9ab9bf5417e72b'] = 'İsteğe bağlı. Kar bu gün otomatik olarak görünür. Hemen başlamak için boş bırakın.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_85908b21c4e739a776a1a0fe357df29d'] = 'Karın son günü';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_8ee48213f3fa7ecfd4dd67dabe536190'] = 'Kar Efektleri - Noel ve Kış Atmosferi';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_94649dc71a92d2feba9150414478aea8'] = 'Noel karışımı (kar + şenlikli süslemeler)';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_960b44c579bc2f6818d2daaf9e4c16f0'] = 'Normal';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9cdd96f858863155026130d7fd633ecc'] = 'Noel süslemeleri kendi renklerini korur. Beyaz, hafif bir gölgeyle gelir; böylece açık temalarda da görünür kalır.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9d228d479ef2dceccca7349a1336ada7'] = 'Kar tanesi rengi geçerli bir renk olmalıdır, örneğin #ffffff.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_a5c4357bd2d36cd706824b3610c05643'] = 'Klasik kar yağışı';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b7514ca6fcbdf8686ada5e2210835b29'] = 'Kar yağışı yoğunluğu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b9f5c797ebbf55adccdd8539a65a0241'] = 'Devre dışı';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ba98cd52be01fb7562c9d4e043cdcdfd'] = 'Tema metin boyutunuza göre, %s ile %s arasında. 1.5 çoğu mağazaya uyar; her kar tanesi de bu değerin etrafında biraz değişir.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_baea7a922b3c436acaeb52e591d1b7f8'] = 'Lütfen geçerli bir kar yağışı yoğunluğu seçin.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_bdc08d0e8200106ad30afa73602f878b'] = 'Karın ilk günü geçerli bir tarih değil. YYYY-AA-GG biçimini kullanın.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be62aa503c80d9a2f220778a91c38ff0'] = 'Kar tanesi sayısı';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be94b0848f6a7fb7bd714da34814e500'] = 'Kar tanesi sayısı %d ile %d arasında tam bir sayı olmalıdır.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_c9cc8cce247e49bae79f15173ce97354'] = 'Kaydet';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_cb79defb8408a09836b185a10fbd689c'] = 'Tipi - hızlı ve canlı';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_d721757161f7f70c5b0949fdb6ec2c30'] = 'Tema';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_da4b1a617ba55b0ef7eefbbe04dd1f64'] = 'Kar tanesi boyutu %s ile %s arasında bir sayı olmalıdır. Örneğin: 1.5';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e556de1c30f599285f140f7ce5c0d505'] = 'Ayarlar başarıyla güncellendi. Sonucu görmek için mağazanızı yeniden yükleyin.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e802724ec2c0ebd605cdf5c76b299655'] = 'Karın son günü geçerli bir tarih değil. YYYY-AA-GG biçimini kullanın.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ee10aa4922b8cdf26bca47904c995f05'] = 'Karın ilk günü';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_f302c418cbcb60adb24ee1072e89319c'] = 'İsteğe bağlı. Kar bu günden sonra otomatik olarak kaybolur - ocak ayında kapatmayı unutmanıza gerek kalmaz.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ff8fe44eae3d2f5cfba62e703e0fb98d'] = 'Lütfen geçerli bir kar teması seçin.';

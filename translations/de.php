@@ -51,3 +51,57 @@ $_MODULE['<{snowflakesmeg}prestashop>3686ab55015eada182cedb47de73c9eb'] = 'Aktue
 $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'Es schneit gerade in Ihrem Shop.';
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Der Schnee ist derzeit ausgeschaltet. Aktivieren Sie ihn unten, damit es schneit.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'Die Vorschau verwendet Ihre gespeicherten Einstellungen. Speichern Sie das Formular unten, um sie zu aktualisieren.';
+
+// --- Auto-regenerated below: keys include the template-basename source segment
+//     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
+//     The entries above this line use the old (pre-1.7, basename-less) key format
+//     that PrestaShop 1.7+ never matches - kept for reference/rollback, not read.
+$_MODULE['<{snowflakesmeg}prestashop>configure_0016d01755f47bd5ce846a130c7ab6e4'] = 'Die Vorschau verwendet Ihre gespeicherten Einstellungen. Speichern Sie das Formular unten, um sie zu aktualisieren.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3686ab55015eada182cedb47de73c9eb'] = 'Aktueller Status und Vorschau';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3fcc9d3ed86f4eebaf2aebf64d6ab1f9'] = 'Wählen Sie ein Thema: klassischer weißer Schneefall oder eine Weihnachtsmischung mit Glocken, Bäumen, Schneemännern und Geschenken.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_55f83ec83da920ba59ad2acfd75510cf'] = 'Es schneit gerade in Ihrem Shop.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_58d1f4d2c2d4f66e638568476596b8cc'] = 'Der Schnee blockiert niemals Klicks oder Scrollen und verbirgt sich für Besucher, deren Gerät reduzierte Bewegung anfordert.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_78ecd6478105c0bc7292fd29a4ca45e2'] = 'Passen Sie Größe, Menge, Geschwindigkeit und Farbe der Flocken an Ihr Design an.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_87d571f1e681acdb9a3c4b0f2ea284d3'] = 'Optional: Legen Sie den ersten und letzten Schneetag fest, und der Effekt startet und stoppt von selbst - perfekt für die Feiertagszeit.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8db079a507719752153ba2af64544de5'] = 'Dieses Modul fügt jeder Seite Ihres Shops einen Schneefalleffekt hinzu, rein in CSS: kein JavaScript, keine externen Dateien, keine messbare Auswirkung auf die Seitengeschwindigkeit.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_9ffdb95250e26c7a6b468126ac7c75b0'] = 'So funktioniert es';
+$_MODULE['<{snowflakesmeg}prestashop>configure_b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Der Schnee ist derzeit ausgeschaltet. Aktivieren Sie ihn unten, damit es schneit.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiviert';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_20cef181c5399732f461504716046d69'] = 'Begeistern Sie Ihre Besucher mit sanftem Schneefall oder einer festlichen Weihnachtsmischung, rein in CSS: kein JavaScript, keine externen Dateien, keine Auswirkung auf die Seitengeschwindigkeit. Legen Sie die Saisondaten einmal fest und der Schnee startet und stoppt von selbst.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_23de9aad11d0b1a45b429fd44a4ecea4'] = 'Die Weihnachtsmischung streut Glocken, Noten, Bäume, Schneemänner und Geschenke zwischen die Schneeflocken.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_353eaf851431a0f83ed93757f5233feb'] = 'Hauptschalter. Wenn aktiviert, schneit es auf jeder Seite Ihres Shops, innerhalb der unten angegebenen Saisondaten, falls Sie welche festgelegt haben.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_3d3348d8ecebd751b4f4e8ffee8fd8a7'] = 'Der Schneeeffekt und seine Einstellungen werden aus Ihrem Shop entfernt. Möchten Sie fortfahren?';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_46faa34adef8569edeb751438264d07f'] = 'Der erste Schneetag muss vor dem letzten Schneetag liegen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_4c6484bee0edd2ebb989db9b70615d1d'] = 'Es schneie lassen';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_62456a3f963b5f4d8c97a056b37951eb'] = 'Wie schnell die Flocken fallen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6479662c2e194558b07f79e3df1633af'] = 'Ruhig - langsame, verträumte Flocken';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_672d13bd298ac7ea905974a3347862ed'] = 'Schneeflockenfarbe';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6b98c69a5dd5046aa413b775a031c726'] = 'Schnee-Einstellungen';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6e085f02f53ea9c3027b526c0d43694d'] = 'Zwischen %d und %d. 12 ist ein guter Kompromiss; höhere Werte wirken wie starker Schneefall.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_771b82ef06c95593f72c05be9665290d'] = 'Ausschalten, um den Schnee nur auf Bildschirmen breiter als 768 Pixel anzuzeigen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7ad857b89382b7157b8ca4755425c8c7'] = 'Auf Smartphones anzeigen';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7c8ef519c49f1ff0b88278b798632b05'] = 'Schneeflockengröße';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_84d2a0fe6dee73eb2f9ab9bf5417e72b'] = 'Optional. Der Schnee erscheint automatisch an diesem Tag. Leer lassen, um sofort zu starten.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_85908b21c4e739a776a1a0fe357df29d'] = 'Letzter Schneetag';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_8ee48213f3fa7ecfd4dd67dabe536190'] = 'Schneeeffekte - Weihnachts- und Winteratmosphäre';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_94649dc71a92d2feba9150414478aea8'] = 'Weihnachtsmischung (Schnee + festliche Ornamente)';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_960b44c579bc2f6818d2daaf9e4c16f0'] = 'Normal';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9cdd96f858863155026130d7fd633ecc'] = 'Die Weihnachtsornamente behalten ihre eigenen Farben. Weiß wird mit einem weichen Schatten dargestellt, damit es auch auf hellen Themes sichtbar bleibt.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9d228d479ef2dceccca7349a1336ada7'] = 'Die Schneeflockenfarbe muss eine gültige Farbe sein, zum Beispiel #ffffff.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_a5c4357bd2d36cd706824b3610c05643'] = 'Klassischer Schneefall';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b7514ca6fcbdf8686ada5e2210835b29'] = 'Schneefallintensität';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b9f5c797ebbf55adccdd8539a65a0241'] = 'Deaktiviert';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ba98cd52be01fb7562c9d4e043cdcdfd'] = 'Relativ zur Textgröße Ihres Themes, zwischen %s und %s. 1.5 passt zu den meisten Shops; jede Flocken variiert auch etwas um diesen Wert.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_baea7a922b3c436acaeb52e591d1b7f8'] = 'Bitte wählen Sie eine gültige Schneefallintensität.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_bdc08d0e8200106ad30afa73602f878b'] = 'Der erste Schneetag ist kein gültiges Datum. Verwenden Sie das Format JJJJ-MM-TT.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be62aa503c80d9a2f220778a91c38ff0'] = 'Anzahl der Schneeflocken';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be94b0848f6a7fb7bd714da34814e500'] = 'Die Anzahl der Schneeflocken muss eine ganze Zahl zwischen %d und %d sein.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_c9cc8cce247e49bae79f15173ce97354'] = 'Speichern';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_cb79defb8408a09836b185a10fbd689c'] = 'Schneesturm - schnell und lebhaft';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_d721757161f7f70c5b0949fdb6ec2c30'] = 'Thema';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_da4b1a617ba55b0ef7eefbbe04dd1f64'] = 'Die Schneeflockengröße muss eine Zahl zwischen %s und %s sein. Zum Beispiel: 1.5';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e556de1c30f599285f140f7ce5c0d505'] = 'Einstellungen erfolgreich aktualisiert. Laden Sie Ihren Shop neu, um das Ergebnis zu bewundern.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e802724ec2c0ebd605cdf5c76b299655'] = 'Der letzte Schneetag ist kein gültiges Datum. Verwenden Sie das Format JJJJ-MM-TT.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ee10aa4922b8cdf26bca47904c995f05'] = 'Erster Schneetag';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_f302c418cbcb60adb24ee1072e89319c'] = 'Optional. Der Schnee verschwindet automatisch nach diesem Tag - Sie müssen im Januar nicht daran denken, ihn auszuschalten.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ff8fe44eae3d2f5cfba62e703e0fb98d'] = 'Bitte wählen Sie ein gültiges Schneethema.';

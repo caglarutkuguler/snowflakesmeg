@@ -51,3 +51,57 @@ $_MODULE['<{snowflakesmeg}prestashop>3686ab55015eada182cedb47de73c9eb'] = 'Aktua
 $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'W Twoim sklepie właśnie pada śnieg.';
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Śnieg jest obecnie wyłączony. Włącz go poniżej, aby zaczął padać.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'Podgląd korzysta z zapisanych ustawień. Zapisz formularz poniżej, aby go odświeżyć.';
+
+// --- Auto-regenerated below: keys include the template-basename source segment
+//     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
+//     The entries above this line use the old (pre-1.7, basename-less) key format
+//     that PrestaShop 1.7+ never matches - kept for reference/rollback, not read.
+$_MODULE['<{snowflakesmeg}prestashop>configure_0016d01755f47bd5ce846a130c7ab6e4'] = 'Podgląd korzysta z zapisanych ustawień. Zapisz formularz poniżej, aby go odświeżyć.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3686ab55015eada182cedb47de73c9eb'] = 'Aktualny status i podgląd';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3fcc9d3ed86f4eebaf2aebf64d6ab1f9'] = 'Wybierz motyw: klasyczne białe opady śniegu lub świąteczną mieszankę z dzwonkami, choinkami, bałwanami i prezentami.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_55f83ec83da920ba59ad2acfd75510cf'] = 'W Twoim sklepie właśnie pada śnieg.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_58d1f4d2c2d4f66e638568476596b8cc'] = 'Śnieg nigdy nie blokuje kliknięć ani przewijania i ukrywa się dla odwiedzających, których urządzenie wymaga ograniczonego ruchu.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_78ecd6478105c0bc7292fd29a4ca45e2'] = 'Dopasuj rozmiar, ilość, prędkość i kolor płatków do swojego projektu.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_87d571f1e681acdb9a3c4b0f2ea284d3'] = 'Opcjonalnie: ustaw pierwszy i ostatni dzień śniegu, a efekt sam się włączy i wyłączy - idealne na sezon świąteczny.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8db079a507719752153ba2af64544de5'] = 'Ten moduł dodaje efekt opadów śniegu na każdej stronie sklepu, w czystym CSS: bez JavaScript, bez plików zewnętrznych, bez mierzalnego wpływu na szybkość strony.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_9ffdb95250e26c7a6b468126ac7c75b0'] = 'Jak to działa';
+$_MODULE['<{snowflakesmeg}prestashop>configure_b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Śnieg jest obecnie wyłączony. Włącz go poniżej, aby zaczął padać.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Włączone';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_20cef181c5399732f461504716046d69'] = 'Zachwyć odwiedzających delikatnym opadami śniegu lub świąteczną mieszanką, w czystym CSS: bez JavaScript, bez plików zewnętrznych, bez wpływu na szybkość strony. Ustaw daty sezonu raz, a śnieg sam się włączy i wyłączy.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_23de9aad11d0b1a45b429fd44a4ecea4'] = 'Mieszanka świąteczna rozsypuje dzwonki, nuty, choinki, bałwany i prezenty między płatkami śniegu.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_353eaf851431a0f83ed93757f5233feb'] = 'Główny przełącznik. Po włączeniu śnieg pada na każdej stronie sklepu, w ramach dat sezonu poniżej, jeśli je ustawiono.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_3d3348d8ecebd751b4f4e8ffee8fd8a7'] = 'Efekt śniegu i jego ustawienia zostaną usunięte ze sklepu. Czy chcesz kontynuować?';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_46faa34adef8569edeb751438264d07f'] = 'Pierwszy dzień śniegu musi być przed ostatnim dniem.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_4c6484bee0edd2ebb989db9b70615d1d'] = 'Niech pada śnieg';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_62456a3f963b5f4d8c97a056b37951eb'] = 'Jak szybko spadają płatki.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6479662c2e194558b07f79e3df1633af'] = 'Spokojnie - wolne, marzycielskie płatki';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_672d13bd298ac7ea905974a3347862ed'] = 'Kolor płatka śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6b98c69a5dd5046aa413b775a031c726'] = 'Ustawienia śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6e085f02f53ea9c3027b526c0d43694d'] = 'Między %d a %d. 12 to dobry kompromis; wyższe wartości dają wrażenie intensywnych opadów.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_771b82ef06c95593f72c05be9665290d'] = 'Wyłącz, aby pokazywać śnieg tylko na ekranach szerszych niż 768 pikseli.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7ad857b89382b7157b8ca4755425c8c7'] = 'Pokaż na telefonach';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7c8ef519c49f1ff0b88278b798632b05'] = 'Rozmiar płatka śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_84d2a0fe6dee73eb2f9ab9bf5417e72b'] = 'Opcjonalnie. Śnieg pojawia się automatycznie tego dnia. Pozostaw puste, aby zacząć od razu.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_85908b21c4e739a776a1a0fe357df29d'] = 'Ostatni dzień śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_8ee48213f3fa7ecfd4dd67dabe536190'] = 'Efekty śniegu - Atmosfera świąteczna i zimowa';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_94649dc71a92d2feba9150414478aea8'] = 'Mieszanka świąteczna (śnieg + świąteczne ozdoby)';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_960b44c579bc2f6818d2daaf9e4c16f0'] = 'Normalna';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9cdd96f858863155026130d7fd633ecc'] = 'Ozdoby świąteczne zachowują własne kolory. Biel ma miękki cień, dzięki czemu jest widoczna także na jasnych motywach.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9d228d479ef2dceccca7349a1336ada7'] = 'Kolor płatka śniegu musi być prawidłowym kolorem, na przykład #ffffff.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_a5c4357bd2d36cd706824b3610c05643'] = 'Klasyczne opady śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b7514ca6fcbdf8686ada5e2210835b29'] = 'Intensywność opadów śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b9f5c797ebbf55adccdd8539a65a0241'] = 'Wyłączone';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ba98cd52be01fb7562c9d4e043cdcdfd'] = 'Względem rozmiaru tekstu motywu, między %s a %s. 1.5 pasuje do większości sklepów; każdy płatek też nieco różni się wokół tej wartości.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_baea7a922b3c436acaeb52e591d1b7f8'] = 'Wybierz prawidłową intensywność opadów śniegu.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_bdc08d0e8200106ad30afa73602f878b'] = 'Pierwszy dzień śniegu nie jest prawidłową datą. Użyj formatu RRRR-MM-DD.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be62aa503c80d9a2f220778a91c38ff0'] = 'Liczba płatków śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be94b0848f6a7fb7bd714da34814e500'] = 'Liczba płatków śniegu musi być liczbą całkowitą między %d a %d.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_c9cc8cce247e49bae79f15173ce97354'] = 'Zapisz';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_cb79defb8408a09836b185a10fbd689c'] = 'Zamieć - szybko i żywiołowo';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_d721757161f7f70c5b0949fdb6ec2c30'] = 'Motyw';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_da4b1a617ba55b0ef7eefbbe04dd1f64'] = 'Rozmiar płatka śniegu musi być liczbą między %s a %s. Na przykład: 1.5';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e556de1c30f599285f140f7ce5c0d505'] = 'Ustawienia zostały pomyślnie zaktualizowane. Odśwież sklep, aby zobaczyć efekt.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e802724ec2c0ebd605cdf5c76b299655'] = 'Ostatni dzień śniegu nie jest prawidłową datą. Użyj formatu RRRR-MM-DD.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ee10aa4922b8cdf26bca47904c995f05'] = 'Pierwszy dzień śniegu';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_f302c418cbcb60adb24ee1072e89319c'] = 'Opcjonalnie. Śnieg znika automatycznie po tym dniu - nie trzeba pamiętać o wyłączeniu w styczniu.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ff8fe44eae3d2f5cfba62e703e0fb98d'] = 'Wybierz prawidłowy motyw śniegu.';

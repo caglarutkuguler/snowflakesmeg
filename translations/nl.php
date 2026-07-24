@@ -51,3 +51,57 @@ $_MODULE['<{snowflakesmeg}prestashop>3686ab55015eada182cedb47de73c9eb'] = 'Huidi
 $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'Er valt op dit moment sneeuw in uw winkel.';
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'De sneeuw is momenteel uitgeschakeld. Schakel deze hieronder in om te laten sneeuwen.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'Het voorbeeld gebruikt uw opgeslagen instellingen. Sla het formulier hieronder op om het te vernieuwen.';
+
+// --- Auto-regenerated below: keys include the template-basename source segment
+//     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
+//     The entries above this line use the old (pre-1.7, basename-less) key format
+//     that PrestaShop 1.7+ never matches - kept for reference/rollback, not read.
+$_MODULE['<{snowflakesmeg}prestashop>configure_0016d01755f47bd5ce846a130c7ab6e4'] = 'Het voorbeeld gebruikt uw opgeslagen instellingen. Sla het formulier hieronder op om het te vernieuwen.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3686ab55015eada182cedb47de73c9eb'] = 'Huidige status en voorbeeld';
+$_MODULE['<{snowflakesmeg}prestashop>configure_3fcc9d3ed86f4eebaf2aebf64d6ab1f9'] = 'Kies een thema: klassieke witte sneeuwval, of een kerstmix met bellen, bomen, sneeuwpoppen en cadeaus.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_55f83ec83da920ba59ad2acfd75510cf'] = 'Er valt op dit moment sneeuw in uw winkel.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_58d1f4d2c2d4f66e638568476596b8cc'] = 'De sneeuw blokkeert nooit klikken of scrollen, en verbergt zich voor bezoekers wier apparaat verminderde beweging vraagt.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_78ecd6478105c0bc7292fd29a4ca45e2'] = 'Pas de grootte, hoeveelheid, snelheid en kleur van de vlokken aan uw ontwerp aan.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_87d571f1e681acdb9a3c4b0f2ea284d3'] = 'Optioneel: stel de eerste en laatste sneeuwdag in, en het effect start en stopt vanzelf - perfect voor het feestseizoen.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8db079a507719752153ba2af64544de5'] = 'Deze module voegt een sneeuwvaleffect toe aan elke pagina van uw winkel, in pure CSS: geen JavaScript, geen externe bestanden, geen meetbare impact op de paginasnelheid.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_9ffdb95250e26c7a6b468126ac7c75b0'] = 'Hoe het werkt';
+$_MODULE['<{snowflakesmeg}prestashop>configure_b994644c0b74fb70ccc35cc7b4b83b8e'] = 'De sneeuw is momenteel uitgeschakeld. Schakel deze hieronder in om te laten sneeuwen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ingeschakeld';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_20cef181c5399732f461504716046d69'] = 'Verwonder uw bezoekers met zachte sneeuwval of een feestelijke kerstmix, in pure CSS: geen JavaScript, geen externe bestanden, geen impact op de paginasnelheid. Stel de seizoensdata eenmaal in en de sneeuw start en stopt vanzelf.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_23de9aad11d0b1a45b429fd44a4ecea4'] = 'De kerstmix verspreidt bellen, muzieknoten, bomen, sneeuwpoppen en cadeaus tussen de sneeuwvlokken.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_353eaf851431a0f83ed93757f5233feb'] = 'Hoofdschakelaar. Wanneer ingeschakeld, valt er sneeuw op elke pagina van uw winkel, binnen de seizoensdata hieronder als u die heeft ingesteld.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_3d3348d8ecebd751b4f4e8ffee8fd8a7'] = 'Het sneeuweffect en de instellingen worden uit uw winkel verwijderd. Wilt u doorgaan?';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_46faa34adef8569edeb751438264d07f'] = 'De eerste sneeuwdag moet vóór de laatste dag liggen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_4c6484bee0edd2ebb989db9b70615d1d'] = 'Laat het sneeuwen';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_62456a3f963b5f4d8c97a056b37951eb'] = 'Hoe snel de vlokken vallen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6479662c2e194558b07f79e3df1633af'] = 'Rustig - langzame, dromerige vlokken';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_672d13bd298ac7ea905974a3347862ed'] = 'Sneeuwvlokkleur';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6b98c69a5dd5046aa413b775a031c726'] = 'Sneeuwinstellingen';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_6e085f02f53ea9c3027b526c0d43694d'] = 'Tussen %d en %d. 12 is een goede balans; hogere waarden voelen als zware sneeuwval.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_771b82ef06c95593f72c05be9665290d'] = 'Schakel uit om de sneeuw alleen te tonen op schermen breder dan 768 pixels.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7ad857b89382b7157b8ca4755425c8c7'] = 'Tonen op telefoons';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_7c8ef519c49f1ff0b88278b798632b05'] = 'Sneeuwvlokgrootte';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_84d2a0fe6dee73eb2f9ab9bf5417e72b'] = 'Optioneel. De sneeuw verschijnt automatisch op deze dag. Laat leeg om meteen te starten.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_85908b21c4e739a776a1a0fe357df29d'] = 'Laatste sneeuwdag';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_8ee48213f3fa7ecfd4dd67dabe536190'] = 'Sneeuweffecten - Kerst- en wintersfeer';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_94649dc71a92d2feba9150414478aea8'] = 'Kerstmix (sneeuw + feestelijke versieringen)';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_960b44c579bc2f6818d2daaf9e4c16f0'] = 'Normaal';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9cdd96f858863155026130d7fd633ecc'] = 'De kerstversieringen behouden hun eigen kleuren. Wit wordt geleverd met een zachte schaduw, zodat het ook op lichte thema\'s zichtbaar blijft.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_9d228d479ef2dceccca7349a1336ada7'] = 'De sneeuwvlokkleur moet een geldige kleur zijn, bijvoorbeeld #ffffff.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_a5c4357bd2d36cd706824b3610c05643'] = 'Klassieke sneeuwval';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b7514ca6fcbdf8686ada5e2210835b29'] = 'Sneeuwvalintensiteit';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_b9f5c797ebbf55adccdd8539a65a0241'] = 'Uitgeschakeld';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ba98cd52be01fb7562c9d4e043cdcdfd'] = 'Ten opzichte van uw thematekstgrootte, tussen %s en %s. 1.5 past bij de meeste winkels; elke vlok varieert ook een beetje rond deze waarde.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_baea7a922b3c436acaeb52e591d1b7f8'] = 'Kies een geldige sneeuwvalintensiteit.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_bdc08d0e8200106ad30afa73602f878b'] = 'De eerste sneeuwdag is geen geldige datum. Gebruik het formaat JJJJ-MM-DD.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be62aa503c80d9a2f220778a91c38ff0'] = 'Aantal sneeuwvlokken';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_be94b0848f6a7fb7bd714da34814e500'] = 'Het aantal sneeuwvlokken moet een geheel getal tussen %d en %d zijn.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_c9cc8cce247e49bae79f15173ce97354'] = 'Opslaan';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_cb79defb8408a09836b185a10fbd689c'] = 'Blizzard - snel en levendig';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_d721757161f7f70c5b0949fdb6ec2c30'] = 'Thema';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_da4b1a617ba55b0ef7eefbbe04dd1f64'] = 'De sneeuwvlokgrootte moet een getal tussen %s en %s zijn. Bijvoorbeeld: 1.5';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e556de1c30f599285f140f7ce5c0d505'] = 'Instellingen succesvol bijgewerkt. Laad uw winkel opnieuw om het resultaat te bewonderen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e802724ec2c0ebd605cdf5c76b299655'] = 'De laatste sneeuwdag is geen geldige datum. Gebruik het formaat JJJJ-MM-DD.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ee10aa4922b8cdf26bca47904c995f05'] = 'Eerste sneeuwdag';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_f302c418cbcb60adb24ee1072e89319c'] = 'Optioneel. De sneeuw verdwijnt automatisch na deze dag - u hoeft niet in januari te denken aan uitschakelen.';
+$_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ff8fe44eae3d2f5cfba62e703e0fb98d'] = 'Kies een geldig sneeuwthema.';
