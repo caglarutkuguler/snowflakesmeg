@@ -52,6 +52,12 @@ $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'Está
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'La nieve está desactivada actualmente. Actívela abajo para que nieve.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'La vista previa utiliza su configuración guardada. Guarde el formulario de abajo para actualizarla.';
 
+// --- Backfilled missing keys (auto-sync)
+$_MODULE['<{snowflakesmeg}prestashop>configure_80954dfbb890ff71afea5ad7b56fd0a5'] = 'La nieve está habilitada y programada: aparecerá automáticamente el %s.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8a785ba049e45582658ac1c35d916073'] = 'La temporada de nieve terminó el %s, por lo que los visitantes ya no la ven. Mueva o limpie el último día de nieve para recuperarla.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_c96c6a2425e161d2f6f3a3ea31258ff9'] = 'Se detendrá automáticamente después de %s.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_db98a9ceeb6e313ac60b41c5dfc047b4'] = 'Encienda la nieve con el interruptor "Let it snow" que aparece a continuación.';
+
 // --- Auto-regenerated below: keys include the template-basename source segment
 //     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
 //     The entries above this line use the old (pre-1.7, basename-less) key format

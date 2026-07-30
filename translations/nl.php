@@ -52,6 +52,12 @@ $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'Er va
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'De sneeuw is momenteel uitgeschakeld. Schakel deze hieronder in om te laten sneeuwen.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'Het voorbeeld gebruikt uw opgeslagen instellingen. Sla het formulier hieronder op om het te vernieuwen.';
 
+// --- Backfilled missing keys (auto-sync)
+$_MODULE['<{snowflakesmeg}prestashop>configure_80954dfbb890ff71afea5ad7b56fd0a5'] = 'Sneeuw is ingeschakeld en gepland: het verschijnt automatisch op %s.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8a785ba049e45582658ac1c35d916073'] = 'Het sneeuwseizoen eindigde op %s, dus bezoekers zien het niet meer. Verplaats of ruim de laatste sneeuwdag op om deze terug te brengen.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_c96c6a2425e161d2f6f3a3ea31258ff9'] = 'Het stopt automatisch na %s.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_db98a9ceeb6e313ac60b41c5dfc047b4'] = 'Zet de sneeuw aan met de schakelaar \'Laat het sneeuwen\' hieronder.';
+
 // --- Auto-regenerated below: keys include the template-basename source segment
 //     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
 //     The entries above this line use the old (pre-1.7, basename-less) key format

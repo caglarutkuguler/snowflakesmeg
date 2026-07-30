@@ -69,7 +69,7 @@ $_MODULE['<{snowflakesmeg}prestashop>configure_8db079a507719752153ba2af64544de5'
 $_MODULE['<{snowflakesmeg}prestashop>configure_9ffdb95250e26c7a6b468126ac7c75b0'] = 'How it works';
 $_MODULE['<{snowflakesmeg}prestashop>configure_b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Snow is currently switched off. Enable it below to let it snow.';
 $_MODULE['<{snowflakesmeg}prestashop>configure_c96c6a2425e161d2f6f3a3ea31258ff9'] = 'It will stop automatically after %s.';
-$_MODULE['<{snowflakesmeg}prestashop>configure_db98a9ceeb6e313ac60b41c5dfc047b4'] = 'Turn the snow on with the \"Let it snow\" switch below.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_db98a9ceeb6e313ac60b41c5dfc047b4'] = 'Turn the snow on with the "Let it snow" switch below.';
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Enabled';
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_20cef181c5399732f461504716046d69'] = 'Delight your visitors with a gentle snowfall or a festive Christmas mix, in pure CSS: no JavaScript, no external files, no impact on page speed. Set the season dates once and the snow starts and stops by itself.';
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_23de9aad11d0b1a45b429fd44a4ecea4'] = 'The Christmas mix scatters bells, music notes, trees, snowmen and gifts between the snowflakes.';

@@ -52,6 +52,12 @@ $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'W Two
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Śnieg jest obecnie wyłączony. Włącz go poniżej, aby zaczął padać.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'Podgląd korzysta z zapisanych ustawień. Zapisz formularz poniżej, aby go odświeżyć.';
 
+// --- Backfilled missing keys (auto-sync)
+$_MODULE['<{snowflakesmeg}prestashop>configure_80954dfbb890ff71afea5ad7b56fd0a5'] = 'Śnieg jest włączony i zaplanowany: pojawi się automatycznie %s.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8a785ba049e45582658ac1c35d916073'] = 'Sezon śniegowy zakończył się %s, więc odwiedzający go już nie widzą. Przesuń lub usuń ostatni dzień śniegu, aby go przywrócić.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_c96c6a2425e161d2f6f3a3ea31258ff9'] = 'Zatrzyma się automatycznie po %s.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_db98a9ceeb6e313ac60b41c5dfc047b4'] = 'Włącz śnieg za pomocą poniższego przełącznika „Niech pada śnieg”.';
+
 // --- Auto-regenerated below: keys include the template-basename source segment
 //     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
 //     The entries above this line use the old (pre-1.7, basename-less) key format

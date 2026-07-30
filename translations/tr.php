@@ -52,6 +52,12 @@ $_MODULE['<{snowflakesmeg}prestashop>55f83ec83da920ba59ad2acfd75510cf'] = 'Mağa
 $_MODULE['<{snowflakesmeg}prestashop>b994644c0b74fb70ccc35cc7b4b83b8e'] = 'Kar şu anda kapalı. Kar yağması için aşağıdan etkinleştirin.';
 $_MODULE['<{snowflakesmeg}prestashop>0016d01755f47bd5ce846a130c7ab6e4'] = 'Önizleme kaydedilmiş ayarlarınızı kullanır. Yenilemek için aşağıdaki formu kaydedin.';
 
+// --- Backfilled missing keys (auto-sync)
+$_MODULE['<{snowflakesmeg}prestashop>configure_80954dfbb890ff71afea5ad7b56fd0a5'] = 'Kar etkinleştirildi ve planlandı: %s tarihinde otomatik olarak görünecektir.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_8a785ba049e45582658ac1c35d916073'] = 'Kar sezonu %s tarihinde sona erdi, dolayısıyla ziyaretçiler artık onu göremiyor. Karları geri getirmek için son gündeki karı hareket ettirin veya temizleyin.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_c96c6a2425e161d2f6f3a3ea31258ff9'] = '%s tarihinden sonra otomatik olarak duracaktır.';
+$_MODULE['<{snowflakesmeg}prestashop>configure_db98a9ceeb6e313ac60b41c5dfc047b4'] = 'Aşağıdaki "Kar yağsın" düğmesiyle karı açın.';
+
 // --- Auto-regenerated below: keys include the template-basename source segment
 //     PrestaShop 1.7+ actually looks up (<{module}prestashop>{basename}_{hash}).
 //     The entries above this line use the old (pre-1.7, basename-less) key format
