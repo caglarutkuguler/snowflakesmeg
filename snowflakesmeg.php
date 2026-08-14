@@ -20,6 +20,19 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
+/*
+ * WidgetInterface lived in the global namespace on PrestaShop 1.7.x
+ * (classes/module/WidgetInterface.php) and moved to
+ * PrestaShop\PrestaShop\Core\Module\WidgetInterface on newer core versions,
+ * with no global-namespace alias shipped. Resolve whichever one this shop
+ * actually has to the global name before the class declaration below needs it.
+ */
+if (!interface_exists('WidgetInterface', false)
+    && interface_exists('PrestaShop\\PrestaShop\\Core\\Module\\WidgetInterface')
+) {
+    class_alias('PrestaShop\\PrestaShop\\Core\\Module\\WidgetInterface', 'WidgetInterface');
+}
+
 class Snowflakesmeg extends Module implements WidgetInterface
 {
     const MIN_SIZE = 0.5;
@@ -41,7 +54,7 @@ class Snowflakesmeg extends Module implements WidgetInterface
     {
         $this->name = 'snowflakesmeg';
         $this->tab = 'front_office_features';
-        $this->version = '2.0.1';
+        $this->version = '2.0.2';
         $this->author = 'MEG Venture';
         $this->need_instance = 0;
         $this->module_key = 'a67eacc637922bc344faab514f05f59a';

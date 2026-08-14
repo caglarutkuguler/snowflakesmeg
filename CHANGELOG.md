@@ -2,6 +2,12 @@
 
 All notable changes to **Snow Effects - Christmas and Winter Atmosphere** (`snowflakesmeg`).
 
+## 2.0.2
+
+### Fixed
+
+- **Fatal error on newer PrestaShop cores.** `implements WidgetInterface` resolves against the global namespace, but newer cores ship the interface only as `PrestaShop\PrestaShop\Core\Module\WidgetInterface` with no global alias, so the module died with `ClassNotFoundError` on those shops. Whichever name the shop provides is now aliased to the global one before the class declaration.
+
 ## 2.0.1
 
 ### Fixed
