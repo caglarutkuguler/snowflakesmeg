@@ -121,6 +121,8 @@ class Snowflakesmeg extends Module implements WidgetInterface
 
     public function getContent()
     {
+        require_once _PS_MODULE_DIR_ . 'snowflakesmeg/classes/MegVentureAdsWidget.php';
+
         $this->html = '';
 
         if (Tools::isSubmit('submitSnowflakesmeg')) {
@@ -138,7 +140,8 @@ class Snowflakesmeg extends Module implements WidgetInterface
 
         return $this->html
             . $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl')
-            . $this->renderForm();
+            . $this->renderForm()
+            . MegVentureAdsWidget::render('https://megventure.com/index.php?fc=module&module=virtualproductcombination&controller=adswidget');
     }
 
     /**
