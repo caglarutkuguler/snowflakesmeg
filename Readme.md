@@ -70,4 +70,4 @@ Uninstalling removes every module setting (including leftovers from 1.x installa
 
 ## License
 
-Academic Free License 3.0 (AFL-3.0) · © 2019-2026 MEG Venture
+MIT License · © 2019-2026 MEG Venture & Consulting Ltd.
