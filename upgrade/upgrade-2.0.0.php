@@ -23,7 +23,7 @@ function upgrade_module_2_0_0($module)
     $settings = Snowflakesmeg::defaultSettings();
 
     // 1.x stored one three-state setting: 0 off, 1 classic, 2 christmas.
-    if (Configuration::hasKey('SNOWFLAKES')) {
+    if (Configuration::get('SNOWFLAKES') !== false) {
         $legacyMode = (int) Configuration::get('SNOWFLAKES');
         $settings['SNOWFLAKESMEG_ENABLED'] = (int) ($legacyMode > 0);
         $settings['SNOWFLAKESMEG_THEME'] = $legacyMode === 2 ? 'christmas' : 'classic';

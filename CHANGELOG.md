@@ -15,6 +15,13 @@ All notable changes to **Snow Effects - Christmas and Winter Atmosphere** (`snow
   now leave the old rows alone — a stale leftover row is harmless, deleting
   another module's setting is not.
 
+### Changed
+
+- The 1.x-to-2.0.0 upgrade step now detects the old setting with
+  `Configuration::get() !== false` instead of `Configuration::hasKey()`, which
+  is not reliable on every supported PrestaShop core (and does not see
+  shop-scoped values on multistore).
+
 ## 2.0.2
 
 ### Fixed
