@@ -45,7 +45,7 @@ class Snowflakesmeg extends Module implements WidgetInterface
     {
         $this->name = 'snowflakesmeg';
         $this->tab = 'front_office_features';
-        $this->version = '2.0.2';
+        $this->version = '2.0.3';
         $this->author = 'MEG Venture';
         $this->need_instance = 0;
         $this->module_key = 'a67eacc637922bc344faab514f05f59a';
@@ -75,12 +75,10 @@ class Snowflakesmeg extends Module implements WidgetInterface
 
     public function uninstall()
     {
-        $keys = array_keys(self::defaultSettings());
-        // Leftovers from 1.x releases.
-        $keys[] = 'SNOWFLAKES';
-        $keys[] = 'sizesnowflakes';
-
-        foreach ($keys as $key) {
+        // Only the module's own prefixed keys. The bare 1.x names ('SNOWFLAKES',
+        // 'sizesnowflakes') are left alone: configuration is shop-wide and the
+        // module cannot prove another module does not own a row by that name.
+        foreach (array_keys(self::defaultSettings()) as $key) {
             Configuration::deleteByName($key);
         }
 

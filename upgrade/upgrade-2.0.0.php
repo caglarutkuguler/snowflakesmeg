@@ -38,8 +38,8 @@ function upgrade_module_2_0_0($module)
         Configuration::updateValue($key, $value);
     }
 
-    Configuration::deleteByName('SNOWFLAKES');
-    Configuration::deleteByName('sizesnowflakes');
+    // The bare 1.x rows are read but never deleted: configuration is shop-wide
+    // and another module may own a row by the same name.
 
     // 1.x registered both displayHeader and its legacy alias, so the snow
     // rendered twice on PrestaShop 1.7.
