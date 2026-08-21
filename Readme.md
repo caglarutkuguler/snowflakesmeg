@@ -4,6 +4,8 @@ A PrestaShop module that adds a snowfall effect to every page of your shop, in p
 
 Module folder name: `snowflakesmeg` · Version 2.0.0 · PrestaShop 1.7.0 and above
 
+**Installable zip:** the archive GitHub generates on the releases page is a source snapshot, not an installable module — PrestaShop rejects it because the folder inside carries the version number. Download the ready-to-install zip from [megventure.com](https://megventure.com/en/free-modules/65-prestashop-snow-effect-christmas-snowfall-8691246247643.html).
+
 ## Highlights
 
 - **Pure CSS** - no JavaScript, no jQuery, no external files or fonts. Nothing is loaded from third-party servers, so the effect is GDPR-friendly and adds no measurable weight to your pages.
