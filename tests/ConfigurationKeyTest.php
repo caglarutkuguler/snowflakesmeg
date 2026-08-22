@@ -46,6 +46,10 @@ class Configuration
         unset(self::$store[$k]);
         return true;
     }
+    public static function updateGlobalValue($k, $v)
+    {
+        return self::updateValue($k, $v);
+    }
     public static function hasKey($k, $l = null)
     {
         return array_key_exists($k, self::$store);
@@ -103,8 +107,8 @@ $m->install();
 ok(Configuration::$store['SNOWFLAKES'] === 'baska-modulun-degeri', "kurulum ciplak 'SNOWFLAKES' satirini ezmedi");
 ok(Configuration::$store['sizesnowflakes'] === 'baska-modulun-boyutu', "kurulum ciplak 'sizesnowflakes' satirina dokunmadi");
 ok(Configuration::$store['SNOWFLAKESMEG_ENABLED'] === '1', 'SNOWFLAKESMEG_ENABLED varsayilani yazildi');
-ok(count(array_filter(array_keys(Configuration::$store), function ($k) { return strpos($k, 'SNOWFLAKESMEG_') === 0; })) === 9,
-   '9 onekli ayar yazildi');
+ok(count(array_filter(array_keys(Configuration::$store), function ($k) { return strpos($k, 'SNOWFLAKESMEG_') === 0; })) === 10,
+   '10 onekli ayar yazildi (9 ayar + review nudge zaman damgasi)');
 
 echo "\n2) Kaldirma baska modulun anahtarina dokunuyor mu\n";
 $m->uninstall();

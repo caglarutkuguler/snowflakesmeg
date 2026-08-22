@@ -45,7 +45,7 @@ class Snowflakesmeg extends Module implements WidgetInterface
     {
         $this->name = 'snowflakesmeg';
         $this->tab = 'front_office_features';
-        $this->version = '2.0.3';
+        $this->version = '2.1.0';
         $this->author = 'MEG Venture';
         $this->need_instance = 0;
         $this->module_key = 'a67eacc637922bc344faab514f05f59a';
@@ -61,6 +61,8 @@ class Snowflakesmeg extends Module implements WidgetInterface
 
     public function install()
     {
+        require_once dirname(__FILE__) . '/classes/MegVentureReviewNudge.php';
+
         if (!parent::install()) {
             return false;
         }
@@ -70,11 +72,15 @@ class Snowflakesmeg extends Module implements WidgetInterface
         }
 
         return $this->registerHook('displayBeforeBodyClosingTag')
-            && $this->registerHook('actionFrontControllerSetMedia');
+            && $this->registerHook('actionFrontControllerSetMedia')
+            && MegVentureReviewNudge::onInstall();
     }
 
     public function uninstall()
     {
+        require_once dirname(__FILE__) . '/classes/MegVentureReviewNudge.php';
+        MegVentureReviewNudge::onUninstall();
+
         // Only the module's own prefixed keys. The bare 1.x names ('SNOWFLAKES',
         // 'sizesnowflakes') are left alone: configuration is shop-wide and the
         // module cannot prove another module does not own a row by that name.
@@ -111,6 +117,16 @@ class Snowflakesmeg extends Module implements WidgetInterface
     public function getContent()
     {
         require_once _PS_MODULE_DIR_ . 'snowflakesmeg/classes/MegVentureAdsWidget.php';
+        require_once _PS_MODULE_DIR_ . 'snowflakesmeg/classes/MegVentureReviewNudge.php';
+
+        // May redirect (review click) — before anything renders on purpose.
+        // Concatenated configure URL on purpose: getAdminLink()'s $params
+        // argument does not exist on the oldest supported cores.
+        $nudge = MegVentureReviewNudge::handleRequest($this)
+            . MegVentureReviewNudge::render(
+                $this,
+                $this->context->link->getAdminLink('AdminModules', true) . '&configure=' . $this->name
+            );
 
         $this->html = '';
 
@@ -127,7 +143,8 @@ class Snowflakesmeg extends Module implements WidgetInterface
             'sfm_color' => $this->getFlakeColor(),
         ));
 
-        return $this->html
+        return $nudge
+            . $this->html
             . $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl')
             . $this->renderForm()
             . MegVentureAdsWidget::render('https://megventure.com/index.php?fc=module&module=virtualproductcombination&controller=adswidget');

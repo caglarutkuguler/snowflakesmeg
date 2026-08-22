@@ -111,3 +111,7 @@ $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e802724ec2c0ebd605cdf5c76b299
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ee10aa4922b8cdf26bca47904c995f05'] = 'Karın ilk günü';
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_f302c418cbcb60adb24ee1072e89319c'] = 'İsteğe bağlı. Kar bu günden sonra otomatik olarak kaybolur - ocak ayında kapatmayı unutmanıza gerek kalmaz.';
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ff8fe44eae3d2f5cfba62e703e0fb98d'] = 'Lütfen geçerli bir kar teması seçin.';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_c980491d2b999421c4aa1ef4449323e1'] = 'Bu modülden memnun musunuz? Kısa bir değerlendirme, diğer mağaza sahiplerinin bu modülü bulmasına yardımcı olur.';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_6ecbf3c5ab7a06f08c526f02bce2b2d6'] = 'Değerlendirme yazın';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_8ad4303b83a62fb6ca3b025bad5bc114'] = 'Hayır, teşekkürler';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_4d170dcb0d03a0efa011c9193219bb68'] = 'Tamam, bir daha sormayacağız.';
