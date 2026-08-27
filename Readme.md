@@ -2,7 +2,7 @@
 
 A PrestaShop module that adds a snowfall effect to every page of your shop, in pure CSS. Choose a classic white snowfall or a festive Christmas mix, set the season dates once, and the snow starts and stops by itself.
 
-Module folder name: `snowflakesmeg` · Version 2.0.0 · PrestaShop 1.7.0 and above
+Module folder name: `snowflakesmeg` · Version 2.1.0 · PrestaShop 1.7.0 and above
 
 **Installable zip:** the archive GitHub generates on the releases page is a source snapshot, not an installable module — PrestaShop rejects it because the folder inside carries the version number. Download the ready-to-install zip from [megventure.com](https://megventure.com/en/free-modules/65-prestashop-snow-effect-christmas-snowfall-8691246247643.html).
 
@@ -33,7 +33,7 @@ Module folder name: `snowflakesmeg` · Version 2.0.0 · PrestaShop 1.7.0 and abo
 | Snowflake color | Color of the snow glyphs (ornaments keep their own colors). A soft shadow keeps white flakes visible on light themes. | #ffffff |
 | First day of snow | Optional date the snow appears. Empty = right away. | Empty |
 | Last day of snow | Optional date after which the snow disappears. Empty = never. | Empty |
-| Show on phones | Switch off to limit the snow to screens wider than 768 px. | Enabled |
+| Show on phones | Switch off to limit the snow to screens wider than 767 px. | Enabled |
 
 All fields are validated when you save: sizes and amounts are checked against their allowed ranges (decimal commas are accepted), dates must be valid and in the right order, and colors must be real CSS colors. Invalid input is rejected with a clear message and nothing you typed is lost.
 
