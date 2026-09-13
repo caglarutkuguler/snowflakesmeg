@@ -111,3 +111,7 @@ $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_e802724ec2c0ebd605cdf5c76b299
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ee10aa4922b8cdf26bca47904c995f05'] = 'Erster Schneetag';
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_f302c418cbcb60adb24ee1072e89319c'] = 'Optional. Der Schnee verschwindet automatisch nach diesem Tag - Sie müssen im Januar nicht daran denken, ihn auszuschalten.';
 $_MODULE['<{snowflakesmeg}prestashop>snowflakesmeg_ff8fe44eae3d2f5cfba62e703e0fb98d'] = 'Bitte wählen Sie ein gültiges Schneethema.';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_c980491d2b999421c4aa1ef4449323e1'] = 'Zufrieden mit diesem Modul? Eine kurze Bewertung hilft anderen Händlern, es zu finden.';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_6ecbf3c5ab7a06f08c526f02bce2b2d6'] = 'Bewertung abgeben';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_8ad4303b83a62fb6ca3b025bad5bc114'] = 'Nein, danke';
+$_MODULE['<{snowflakesmeg}prestashop>megventurereviewnudge_4d170dcb0d03a0efa011c9193219bb68'] = 'In Ordnung, wir fragen nicht erneut.';
