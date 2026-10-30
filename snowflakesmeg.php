@@ -147,7 +147,7 @@ class Snowflakesmeg extends Module implements WidgetInterface
             . $this->html
             . $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl')
             . $this->renderForm()
-            . MegVentureAdsWidget::render('https://megventure.com/index.php?fc=module&module=virtualproductcombination&controller=adswidget');
+            . MegVentureAdsWidgetV2::render('https://megventure.com/index.php?fc=module&module=virtualproductcombination&controller=adswidget');
     }
 
     /**
